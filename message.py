@@ -134,7 +134,7 @@ def Carousel_Template():
                     title='查看我的菜單',
                     text='來看看您點了甚麼餐點吧',
                     actions=[
-                        MessageAction(
+                        MessageTemplateAction(
                             label="查看我的菜單",
                             text="查看我的菜單"
                         )
