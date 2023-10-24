@@ -46,7 +46,7 @@ def callback():
 @handler.add(MessageEvent, message=TextMessage)
 def handle_message(event):
     msg = event.message.text
-    if '旋轉木馬' in msg:
+    if '菜單' in msg:
         message = Carousel_Template()
         line_bot_api.reply_message(event.reply_token, message)
     
