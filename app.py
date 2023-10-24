@@ -98,7 +98,7 @@ def handle_message(event):
     #======MongoDB操作範例======
 
     else:
-        message = TextSendMessage(text=msg)
+        message = TextSendMessage(text="")
         line_bot_api.reply_message(event.reply_token, message)
 
 # 處理 Postback 事件
