@@ -100,7 +100,7 @@ def Carousel_Template():
                     ]
                 ),
                 CarouselColumn(
-                    thumbnail_image_url='https://i.imgur.com/hg63JXp.jpg',
+                    thumbnail_image_url='https://i.imgur.com/hg63JXp.png',
                     title='糖醋里肌 $200',
                     text='先將里肌肉炸熟後，搭上糖醋醬再次回炸，酸酸甜甜的糖醋醬讓里肌肉增加不少風味',
                     actions=[
