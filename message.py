@@ -6,7 +6,7 @@ from linebot.models import *
 
 def Carousel_Template():
     message = TemplateSendMessage(
-        alt_text='一則旋轉木馬按鈕訊息',
+        alt_text='一則菜單按鈕訊息',
         template=CarouselTemplate(
             columns=[
                 CarouselColumn(
@@ -21,6 +21,10 @@ def Carousel_Template():
                         PostbackTemplateAction(
                             label='移出菜單',
                             data='刪除菜單:清蒸鱈魚'
+                        ),
+                        MessageTemplateAction(
+                            label='查看我的菜單',
+                            text='查看我的菜單'
                         )
                     ]
                 ),
@@ -36,6 +40,10 @@ def Carousel_Template():
                         PostbackTemplateAction(
                             label='移出菜單',
                             data='刪除菜單:鐵板牛柳'
+                        ),
+                        MessageTemplateAction(
+                            label='查看我的菜單',
+                            text='查看我的菜單'
                         )
                     ]
                 ),
@@ -51,6 +59,10 @@ def Carousel_Template():
                         PostbackTemplateAction(
                             label='移出菜單',
                             data='刪除菜單:鳳梨蝦球'
+                        ),
+                        MessageTemplateAction(
+                            label='查看我的菜單',
+                            text='查看我的菜單'
                         )
                     ]
                 ),
@@ -66,6 +78,10 @@ def Carousel_Template():
                         PostbackTemplateAction(
                             label='移出菜單',
                             data='刪除菜單:蝦仁滑蛋'
+                        ),
+                        MessageTemplateAction(
+                            label='查看我的菜單',
+                            text='查看我的菜單'
                         )
                     ]
                 ),
@@ -81,6 +97,10 @@ def Carousel_Template():
                         PostbackTemplateAction(
                             label='移出菜單',
                             data='刪除菜單:蒜泥白肉'
+                        ),
+                        MessageTemplateAction(
+                            label='查看我的菜單',
+                            text='查看我的菜單'
                         )
                     ]
                 ),
@@ -96,6 +116,10 @@ def Carousel_Template():
                         PostbackTemplateAction(
                             label='移出菜單',
                             data='刪除菜單:老皮嫩肉'
+                        ),
+                        MessageTemplateAction(
+                            label='查看我的菜單',
+                            text='查看我的菜單'
                         )
                     ]
                 ),
@@ -111,6 +135,10 @@ def Carousel_Template():
                         PostbackTemplateAction(
                             label='移出菜單',
                             data='刪除菜單:糖醋里肌'
+                        ),
+                        MessageTemplateAction(
+                            label='查看我的菜單',
+                            text='查看我的菜單'
                         )
                     ]
                 ),
@@ -126,6 +154,10 @@ def Carousel_Template():
                         PostbackTemplateAction(
                             label='移出菜單',
                             data='刪除菜單:焗烤白菜'
+                        ),
+                        MessageTemplateAction(
+                            label='查看我的菜單',
+                            text='查看我的菜單'
                         )
                     ]
                 )
