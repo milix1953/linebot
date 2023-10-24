@@ -128,17 +128,6 @@ def Carousel_Template():
                             data='刪除菜單:焗烤白菜'
                         )
                     ]
-                ),
-                CarouselColumn(
-                    thumbnail_image_url='https://i.imgur.com/tmEBFiv.jpg',
-                    title='查看我的菜單',
-                    text='來看看您點了甚麼餐點吧',
-                    actions=[
-                        MessageTemplateAction(
-                            label='查看我的菜單',
-                            text='查看我的菜單'
-                        )
-                    ]
                 )
 
             ]
